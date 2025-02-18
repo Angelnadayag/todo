@@ -4,6 +4,12 @@ body {
   background-color: #ffcdb2;
   margin: 0;
   padding: 0;
+  background-image: url(batter.jpg); 
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .container {
@@ -13,6 +19,8 @@ body {
   margin: 50px auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(pink.jpg);
+
 }
 
 input {
@@ -54,7 +62,7 @@ button:hover {
 }
 
 .done-btn:hover {
-  background: darkred;
+  background: #ffcdb2(196, 10, 196);
 }
 
 ul {
@@ -63,7 +71,7 @@ ul {
 }
 
 ul li {
-  background: #ddd;
+  background: #e5989b;
   margin: 5px 0;
   padding: 8px;
   border-radius: 5px;
@@ -78,8 +86,7 @@ ul li {
 }
 
 .delete-btn {
-  background: red;
-  color: white;
+  color: black;
   border: none;
   padding: 5px;
   margin-left: 10px;
@@ -87,5 +94,5 @@ ul li {
 }
 
 .delete-btn:hover {
-  background: darkred;
+  background: #ffcdb2;
 }

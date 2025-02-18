@@ -1,7 +1,7 @@
 document.getElementById("addTaskBtn").addEventListener("click", function () {
   let taskInput = document.getElementById("taskInput");
   let taskText = taskInput.value.trim();
-
+  
   if (taskText !== "") {
     let taskList = document.getElementById("taskList");
 
@@ -36,3 +36,4 @@ function updateTaskCounter() {
     .getElementsByTagName("li").length;
   document.getElementById("taskCounter").textContent = taskCount;
 }
+
